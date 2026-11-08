@@ -1,0 +1,86 @@
+[
+ {
+  "name": "three_depths",
+  "hex": "1c00010721099206a40c1c35",
+  "seq": 1,
+  "temps_c": [
+   18.25,
+   24.5,
+   17.0
+  ],
+  "battery_mv": 3100,
+  "low_battery": false
+ },
+ {
+  "name": "negative_temps",
+  "hex": "1cfffffddafebbfb500b86ba",
+  "seq": 65535,
+  "temps_c": [
+   -5.5,
+   -3.25,
+   -12.0
+  ],
+  "battery_mv": 2950,
+  "low_battery": false
+ },
+ {
+  "name": "two_depths",
+  "hex": "18012c03e804d20ce4df",
+  "seq": 300,
+  "temps_c": [
+   10.0,
+   12.34
+  ],
+  "battery_mv": 3300,
+  "low_battery": false
+ },
+ {
+  "name": "one_depth",
+  "hex": "14000000000bb810",
+  "seq": 0,
+  "temps_c": [
+   0.0
+  ],
+  "battery_mv": 3000,
+  "low_battery": false
+ },
+ {
+  "name": "low_battery",
+  "hex": "1d000707d00834079e09c4ff",
+  "seq": 7,
+  "temps_c": [
+   20.0,
+   21.0,
+   19.5
+  ],
+  "battery_mv": 2500,
+  "low_battery": true
+ },
+ {
+  "name": "sensor_fault",
+  "hex": "1c002a07d08000079e0bb895",
+  "seq": 42,
+  "temps_c": [
+   20.0,
+   null,
+   19.5
+  ],
+  "battery_mv": 3000,
+  "low_battery": false
+ },
+ {
+  "name": "bad_crc",
+  "hex": "1c0005006400c8012c0bb8d8",
+  "error": true
+ },
+ {
+  "name": "truncated",
+  "hex": "1c0005006400c8012c",
+  "error": true
+ },
+ {
+  "name": "bad_version",
+  "hex": "2c0005006400c8012c0bb839",
+  "error": true
+ }
+]
