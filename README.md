@@ -109,4 +109,4 @@ flowchart LR
 
 ## Licence
 
-MIT, Copyright (c) 2026 Victor Bonilla.
+MIT, Copyright (c) 2026 VB-Builds.
